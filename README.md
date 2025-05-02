@@ -13,6 +13,7 @@ A machine learning-based classifier to detect spam messages in SMS or email cont
 ## 📂 Project Structure
 
 spam_sms-email_classifier/
+
 │
 ├── data/ # Raw and cleaned datasets
 ├── notebooks/ # Jupyter notebooks for EDA and model building
