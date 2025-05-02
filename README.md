@@ -13,7 +13,6 @@ A machine learning-based classifier to detect spam messages in SMS or email cont
 ## 📂 Project Structure
 
 spam_sms-email_classifier/
-
 │
 ├── data/ # Raw and cleaned datasets
 ├── notebooks/ # Jupyter notebooks for EDA and model building
@@ -21,3 +20,31 @@ spam_sms-email_classifier/
 ├── streamlit_app.py # Streamlit frontend (if created)
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+
+
+
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- NLTK or spaCy (for NLP)
+- Jupyter Notebook
+- Streamlit (for deployment)
+
+## 📊 Model Training and Evaluation
+
+- Preprocessing: Lowercasing, punctuation removal, tokenization, stopword removal, stemming
+- Vectorization: CountVectorizer / TF-IDF
+- Model: Multinomial Naive Bayes / Logistic Regression
+- Evaluation metrics: Accuracy, Confusion Matrix, F1 Score
+
+## 🧪 How to Run Locally
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/gaurithombare/spam_sms-email_classifier.git
+cd spam_sms-email_classifier
+
